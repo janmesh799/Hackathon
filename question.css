@@ -5,3 +5,39 @@ body {
     background-size: 100px 100px;
     background-color: var(--stripe);
 }
+h1{
+    font-size: 80px;
+    padding-left: 400px;
+    font-family: Snell Roundhand, cursive;
+    color:Brown;
+    font-weight: 1000;
+}
+.question{
+    font-size: 50px;
+    font-family: Palatino, URW Palladio L, serif;
+}
+.option{
+    font-size: 30px;
+    border-style: none;
+}
+.option :hover{
+    font-size: 35;
+    border-style: solid;
+
+}
+.option :focus{
+    font-size: 35;
+    border-style: solid;
+    color: blueviolet;
+}
+.final_score{
+    font-size: 40px;
+    color: firebrick;
+    border: gold;
+    border-radius: 30px;
+}
+.final_score :hover{
+    font-size: 50px;
+    color: indigo;
+
+}
