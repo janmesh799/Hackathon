@@ -1,0 +1,85 @@
+/* body{
+    background-color: lightblue;
+} */
+
+body {
+    --stripe: #cfd8dc;
+    --bg: #e1e1e1;
+    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(315deg, var(--bg) 25%, transparent 25%), linear-gradient(45deg, var(--bg) 25%, transparent 25%);
+    background-size: 100px 100px;
+    background-color: var(--stripe);
+}
+
+h1 {
+    color: firebrick;
+    font-family: Stencil Std, fantasy;
+    font-size: 100px;
+    font-weight: 1000;
+    text-align: left;
+    padding-left: 250px;
+}
+
+h2 {
+    color: midnightblue;
+    font-family: Stencil Std, fantasy;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: left;
+    /* background-color: hotpink; */
+    /*padding-top: 2px;*/
+    padding-left: 80px;
+}
+
+.rules {
+    font-size: 30px;
+    padding-left: 10px;
+    font-family: FreeMono, monospace;
+}
+
+.button {
+    font-size: 30px;
+    font-family: American Typewriter, serif;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-block: 10px;
+    background-color: skyblue;
+    /* background-color: teal; */
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: brown;
+}
+
+ol {
+    padding-left: 180px;
+}
+
+ul {
+    padding-left: 300px;
+}
+
+.logo {
+    /* border-radius: 30px; */
+    padding-left: 75px;
+    height: 100px;
+    opacity: 0.7;
+    padding-right: 0px;
+}
+
+.topic {
+    font-size: 60px;
+    font-family: DejaVu Sans Mono, monospace;
+    font-weight: bold;
+    color: #006600;
+    padding-left: 50px;
+}
