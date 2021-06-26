@@ -1,27 +1,35 @@
-/* body{
-    background-color: lightblue;
-} */
-
-body {
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&family=Lato&display=swap');
+/* body {
     --stripe: #cfd8dc;
     --bg: #e1e1e1;
     background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(315deg, var(--bg) 25%, transparent 25%), linear-gradient(45deg, var(--bg) 25%, transparent 25%);
     background-size: 100px 100px;
     background-color: var(--stripe);
+} */
+*{
+    margin: 2rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    background-color: hsl(206, 92%, 94%)
 }
-
+html{
+    font-size: 62.5%;
+}
 h1 {
-    color: firebrick;
-    font-family: Stencil Std, fantasy;
+    color: rgb(231, 46, 46);
+    font-family: 'Lato', sans-serif;
     font-size: 100px;
-    font-weight: 1000;
+    font-weight: 800;
     text-align: left;
-    padding-left: 250px;
+    padding-left: 200px;
 }
 
 h2 {
-    color: midnightblue;
-    font-family: Stencil Std, fantasy;
+    color: rgb(72, 72, 169);
+    font-family: 'Lato', sans-serif;
     font-size: 50px;
     font-weight: 800;
     text-align: left;
@@ -46,7 +54,12 @@ h2 {
     padding-bottom: 5px;
     padding-block: 10px;
     background-color: skyblue;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba( 0, 0, 0, 0.4);
     /* background-color: teal; */
+}
+.button:hover{
+    background-color: rgb(69, 145, 175);
 }
 
 hr {
@@ -69,11 +82,11 @@ ul {
 }
 
 .logo {
-    /* border-radius: 30px; */
-    padding-left: 75px;
-    height: 100px;
+    height: 150px;
     opacity: 0.7;
     padding-right: 0px;
+    border-radius: 2rem;
+    
 }
 
 .topic {
@@ -82,4 +95,19 @@ ul {
     font-weight: bold;
     color: #006600;
     padding-left: 50px;
+}
+
+.topic_button{
+    border: none;
+    font-weight: 700;
+    font-family: 'Benne', serif;
+    font-size: 5rem;
+    background-color: rgb(108, 178, 198);
+    border-radius: 3rem;
+    padding:  0 2rem 0 2rem;
+    box-shadow: 0 1rem 1rem -0.7rem rgba(209, 31, 31, 0.4);
+}
+.topic_button:hover{
+    background-color: rgba(209, 31, 31,0.4);
+    box-shadow: 0 1rem 1rem -0.7rem rgb(108, 178, 198);
 }
