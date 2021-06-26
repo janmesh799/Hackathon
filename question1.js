@@ -56,27 +56,27 @@ const quizDB = [
         ans: "ans2"
     },
     {
-        question: "Q8: 'PDPM' in the college name PDPM IIITDMJ stands for:-",
-        a: "Pandit Dwarika Prashad Mishra",
-        b: "Pandit Din-Prashad Mishra",
-        c: "Pandit Dwarika Parth Mishra",
-        d: "Professor Dwarika Prashad Mathur",
-        ans: "ans1"
+        question: "Q8: 'In which city IIITDMJ situated?",
+        a: "Jaipur",
+        b: "Jodhpur",
+        c: "Jaunpur",
+        d: "Jabalpur",
+        ans: "ans4"
     },
     {
-        question: "Q9: 'PDPM' in the college name PDPM IIITDMJ stands for:-",
-        a: "Pandit Dwarika Prashad Mishra",
-        b: "Pandit Din-Prashad Mishra",
-        c: "Pandit Dwarika Parth Mishra",
-        d: "Professor Dwarika Prashad Mathur",
-        ans: "ans1"
+        question: "Q9: What is the name of nearby national park of IIITDMJ?",
+        a: "Nagarhole National Park",
+        b: "Dumna Nature Reserve Park",
+        c: "Kanha National Park",
+        d: "Gir National Park",
+        ans: "ans2"
     },
     {
-        question: "Q10: 'PDPM' in the college name PDPM IIITDMJ stands for:-",
-        a: "Pandit Dwarika Prashad Mishra",
-        b: "Pandit Din-Prashad Mishra",
-        c: "Pandit Dwarika Parth Mishra",
-        d: "Professor Dwarika Prashad Mathur",
+        question: "Q10: In 2005, in which college IIITDMJ started functioning?",
+        a: "Jabalpur Engineering College'",
+        b: "Saraswati Institute of Engineering & Technology",
+        c: "Radhaswami Institute of Engineering",
+        d: "Gyan Ganga Institute of Technology and sciences",
         ans: "ans1"
     },
 ];
@@ -133,7 +133,9 @@ submit.addEventListener('click', () => {
 
     questionCount++;
 
-    deselectAll();
+    if (questionCount < quizDB.length) {
+        deselectAll();
+    };
 
     if(questionCount<quizDB.length){
         loadQuestion();
