@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Benne&family=Lato&display=swap');
-/* body {
-    --stripe: #cfd8dc;
-    --bg: #e1e1e1;
-    background: linear-gradient(135deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(225deg, var(--bg) 25%, transparent 25%) -50px 0, linear-gradient(315deg, var(--bg) 25%, transparent 25%), linear-gradient(45deg, var(--bg) 25%, transparent 25%);
-    background-size: 100px 100px;
-    background-color: var(--stripe);
-} */
+
 *{
     margin: 2rem;
     padding: 0;
@@ -33,8 +27,6 @@ h2 {
     font-size: 50px;
     font-weight: 800;
     text-align: left;
-    /* background-color: hotpink; */
-    /*padding-top: 2px;*/
     padding-left: 80px;
 }
 
@@ -56,7 +48,6 @@ h2 {
     background-color: skyblue;
     border-radius: 1rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba( 0, 0, 0, 0.4);
-    /* background-color: teal; */
 }
 .button:hover{
     background-color: rgb(69, 145, 175);
