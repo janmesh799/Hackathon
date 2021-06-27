@@ -17,10 +17,10 @@ const quizDB = [
     },
     {
         question: "Q3: 'FANG' stands for?",
-        a: "Facebook, Alibaba, Nokia, Google",
-        b: "Facebook, Amazon, Netflix, Google",
-        c: "Facebook, Amazon, Nokia, Google",
-        d: "Facebook, Alibaba, Netflix, Google",
+        a: "Facebook, Apple, Alibaba, Nokia, Google",
+        b: "Facebook, Apple, Amazon, Netflix, Google",
+        c: "Facebook, Amazon, Apple, Nokia, Google",
+        d: "Facebook, Alibaba, Apple, Netflix, Google",
         ans: "ans2"
     },
     {
@@ -77,7 +77,7 @@ const quizDB = [
         b: "Neuralink",
         c: "Alphabet",
         d: "Paypal",
-        ans: "ansc"
+        ans: "ans3"
     },
 ];
 

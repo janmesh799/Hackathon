@@ -24,7 +24,7 @@ const quizDB = [
         ans: "ans1"
     },
     {
-        question: "Q4: 'What is the name of programming club of IIITDMJ?",
+        question: "Q4: What is the name of programming club of IIITDMJ?",
         a: "Bit-Bits",
         b: "Byte-Bit",
         c: "Bit-Byte",
@@ -56,7 +56,7 @@ const quizDB = [
         ans: "ans2"
     },
     {
-        question: "Q8: 'In which city IIITDMJ situated?",
+        question: "Q8: In which city IIITDMJ situated?",
         a: "Jaipur",
         b: "Jodhpur",
         c: "Jaunpur",

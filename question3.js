@@ -77,7 +77,7 @@ const quizDB = [
         b: "$50 billion",
         c: "$27 billion",
         d: "$30 billion",
-        ans: "ansd"
+        ans: "ans4"
     },
 ];
 
