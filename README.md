@@ -1,5 +1,6 @@
 # Hackathon
 This is the repository for my website designed for hackathon - (Hack the web) organised by IIIT Jabalpur.
+website hosting link:- https://janmesh7.github.io/Hackathon/
 
 At homepage there is the title - Quiz game and some sets of rules are also there on the same page.
 At the top left corner there is a logo of Programming club (BIT-BYTE) of my college - IIIT Jabalpur, 
