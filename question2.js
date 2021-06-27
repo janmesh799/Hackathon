@@ -74,7 +74,7 @@ const quizDB = [
     {
         question: "Q10: Which of these company, is not founded by Elon Musk?",
         a: "Tesla",
-        b: "Paypal",
+        b: "Neuralink",
         c: "Alphabet",
         d: "Paypal",
         ans: "ansc"
@@ -132,13 +132,14 @@ submit.addEventListener('click', () => {
     };
 
     questionCount++;
+
     if (questionCount < quizDB.length) {
         deselectAll();
     };
 
-    if (questionCount < quizDB.length) {
+    if(questionCount<quizDB.length){
         loadQuestion();
-    } else {
+    }else{
         showScore.innerHTML = `
         <h3>you scored ${score}/${quizDB.length} ✌</h3>
         <button class="btn" onclick="location.reload()"> PLAY AGAIN</button>

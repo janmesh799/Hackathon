@@ -1,83 +1,83 @@
 const quizDB = [
     {
-        question: "Q1: Google was founded by?",
-        a: "Larry Page - Sundar Pichai",
-        b: "Sergey Brin - Mark Zukerberg",
-        c: "Larry page - Serget Brin",
-        d: "Elon Musk - Sundar Pichai",
-        ans: "ans3"
+        question: "Q1: Most valuable stat-up of india in 2020:",
+        a: "OYO-rooms",
+        b: "Paytm",
+        c: "Byju's",
+        d: "Zomato",
+        ans: "ans2"
     },
     {
-        question: "Q2: Google was founded in which year?",
-        a: "1988",
-        b: "1999",
-        c: "1989",
-        d: "1998",
+        question: "Q2: Flipkart was founded by?",
+        a: "Sachin Bansal - Binny Bansal",
+        b: "Vijay Shekhar Sharma - Sachin Bansal",
+        c: "Binny Bansal - Vijey Shekhar Sharma",
+        d: "Ritesh Agarwal - Binny Bansal",
+        ans: "ans1"
+    },
+    {
+        question: "Q3: India's youngest billionaire, Nikhil Kamath is co-founder of which startup? ",
+        a: "Byju's",
+        b: "Zomato",
+        c: "OYO rooms",
+        d: "Zerodha",
         ans: "ans4"
     },
     {
-        question: "Q3: 'FANG' stands for?",
-        a: "Facebook, Alibaba, Nokia, Google",
-        b: "Facebook, Amazon, Netflix, Google",
-        c: "Facebook, Amazon, Nokia, Google",
-        d: "Facebook, Alibaba, Netflix, Google",
-        ans: "ans2"
+        question: "Q4: Which college in india has best stat-ups?",
+        a: "IIT-Bombay",
+        b: "IIT-Kanpur",
+        c: "IIT-Delhi",
+        d: "IIT-Kharagpur",
+        ans: "ans3"
     },
     {
-        question: "Q4: Netflix was founded by?",
-        a: "Reed Hasting - Marc Randolph",
-        b: "Reed Hasting - Bill Gates",
-        c: "Bill Gates - Henry Cavil",
-        d: "Steve Rogers - Tony Stark",
+        question: "Q5: paytm was founded in:",
+        a: "2009, Noida",
+        b: "2011, Noida",
+        c: "2009, Mumbai",
+        d: "2011, Mumbai",
         ans: "ans1"
     },
     {
-        question: "Q5: Biggest Tech Company in terms of revenue:",
-        a: "Amazon",
-        b: "Apple",
-        c: "Samsung",
-        d: "Microsoft",
+        question: "Q6: Flipkart was founded in:",
+        a: "2009, Bengaluru",
+        b: "2009, Delhi",
+        c: "2009, 'Delhi",
+        d: "2007, Bengaluru",
+        ans: "ans4"
+    },
+    {
+        question: "Q7: Ritesh Agarwal is founder of:",
+        a: "Byju's",
+        b: "CRED",
+        c: "Zomato",
+        d: "OYO Rooms",
+        ans: "ans4"
+    },
+    {
+        question: "Q8: What is Zomato's valuation?",
+        a: "$5.4 billion",
+        b: "$10.9 billion",
+        c: "$3.7 billion",
+        d: "$7.4 billion",
         ans: "ans1"
     },
     {
-        question: "Q6: Headquarters of Amazon are situated at:",
-        a: "California",
-        b: "Washington",
-        c: "Canada",
-        d: "Hong-Kong",
+        question: "Q9: In 2018, walmart accquired how much stakes in Flipkart?",
+        a: "82% stakes for $17 billion",
+        b: "77% stakes for &16 billion",
+        c: "69% stakes for $14 billion",
+        d: "51% stakes for $12.5 billion",
         ans: "ans2"
     },
     {
-        question: "Q7: Which one of these is not a product-based company?",
-        a: "Oracle",
-        b: "TCS",
-        c: "Samsung",
-        d: "Adobe",
-        ans: "ans2"
-    },
-    {
-        question: "Q8: Largest IT-company based in India:",
-        a: "Tata Consultancy services",
-        b: "Infosys",
-        c: "HCL Technologies",
-        d: "Wipro",
-        ans: "ans1"
-    },
-    {
-        question: "Q9: Starlink is a:",
-        a: "Electric Car Manufacturing company",
-        b: "Satellite Internet constellation",
-        c: "Rocket designing comapany",
-        d: "Processor making company",
-        ans: "ans2"
-    },
-    {
-        question: "Q10: Which of these company, is not founded by Elon Musk?",
-        a: "Tesla",
-        b: "Paypal",
-        c: "Alphabet",
-        d: "Paypal",
-        ans: "ansc"
+        question: "Q10: Whats is Paytm's valuation?",
+        a: "$65 billion",
+        b: "$50 billion",
+        c: "$27 billion",
+        d: "$30 billion",
+        ans: "ansd"
     },
 ];
 
@@ -132,13 +132,14 @@ submit.addEventListener('click', () => {
     };
 
     questionCount++;
+
     if (questionCount < quizDB.length) {
         deselectAll();
     };
 
-    if (questionCount < quizDB.length) {
+    if(questionCount<quizDB.length){
         loadQuestion();
-    } else {
+    }else{
         showScore.innerHTML = `
         <h3>you scored ${score}/${quizDB.length} ✌</h3>
         <button class="btn" onclick="location.reload()"> PLAY AGAIN</button>
