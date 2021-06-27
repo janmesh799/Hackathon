@@ -95,10 +95,7 @@ ul {
     font-size: 5rem;
     background-color: rgb(108, 178, 198);
     border-radius: 3rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
+    padding:  0 2rem 0 2rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(209, 31, 31, 0.4);
 }
 .topic_button:hover{
